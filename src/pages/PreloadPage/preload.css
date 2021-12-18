@@ -1,0 +1,49 @@
+/*------ MAIN PAGE ------*/
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+
+.preload-content {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 280px;
+   height: 280px;
+   transform: translate(-50%, -50%);
+   color: white;
+   background: url("../../images/music.gif");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 50%;
+}
+.preload-content h3 {
+   position: absolute;
+   top: -100px;
+   font-family: "Paytone One", sans-serif;
+   text-align: center;
+   letter-spacing: 1.5px;
+   font-size: 30px;
+}
+.preload-content a {
+   position: absolute;
+   bottom: -50px;
+   display: block;
+   width: 100%;
+   color: white;
+   font-family: "Paytone One", sans-serif;
+   font-size: 18px;
+   letter-spacing: 1.6px;
+   text-align: center;
+   transition: 0.4s ease-in-out;
+}
+.preload-content a:hover {
+   color: rgb(219, 20, 63);
+}
+@media (max-width: 290px) {
+   .preload-content {
+      width: 250px;
+      height: 250px;
+   }
+   .preload-content h3 {
+      top: -150px;
+   }
+}

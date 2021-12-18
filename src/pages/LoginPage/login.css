@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+.login-content {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 60%;
+   transform: translate(-50%, -50%);
+   color: white;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 50%;
+   text-align: center;
+}
+.login-content h3 {
+   letter-spacing: 4px;
+   text-transform: uppercase;
+   margin: 10px 0 20px 0;
+}
+.login-content button {
+   margin-top: 20px;
+   padding: 10px 20px;
+   background-color: transparent;
+   border: 3px solid white;
+   border-radius: 8px;
+   color: white;
+   cursor: pointer;
+}
+
+.login-content__logo {
+   font-size: 50px;
+   color: rgb(36, 202, 86);
+   background-color: white;
+   border-radius: 50%;
+}
+@media (max-width: 290px) {
+   .login-content {
+      width: 80%;
+   }
+}
